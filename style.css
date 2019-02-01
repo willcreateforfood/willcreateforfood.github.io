@@ -246,6 +246,11 @@ p{
   /*width:200px;*/
   display: flex;
   justify-content: center;
+  align-content: center;
+}
+.icon-trio div{
+  display: flex;
+  justify-content: center;
 }
 .icon-trio img{
   height:200px;
@@ -270,12 +275,24 @@ p{
 .intro-text{
   /*padding-top: 5vh;*/
   text-align: center;
+  overflow-wrap: break-word;
 }
 .intro-text h1{
   font-size: 68px;
   line-height: 0;
+  overflow-wrap: break-word;
 }
-
+@media screen and (max-width: 600px){
+  .icon-holder{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  .icon-holder li h2, .icon-holder li p{
+    text-align: center;
+  }
+}
 /*MAIN MOBILE*/
 @media screen and (max-width: 1024px) {
   .main-content{
@@ -287,6 +304,17 @@ p{
   .work-grid li{
     width: 26vw;
     height: 26vw;
+  }
+  .intro-text{
+    line-height: inherit;
+  }
+  .intro-text h1{
+    font-size: 48px;
+    line-height: inherit;
+  }
+  .intro-logo div img{
+    padding-top:25vh;
+    height: 50vh
   }
 }
 #social{
@@ -370,10 +398,10 @@ p{
   width: 80vw;
 }
 #project02{
-  background-image:url("img/future.png");
+  background-image:url("img/future.PNG");
 }
 #project03{
-  background-image: url("img/benign-front-page.png");
+  background-image: url("img/benign-front-page.PNG");
   background-size: 110%;
   background-position: -30px;
 }
