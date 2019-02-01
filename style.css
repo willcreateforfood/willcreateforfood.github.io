@@ -314,7 +314,18 @@ p{
   }
   .intro-logo div img{
     padding-top:25vh;
-    height: 50vh
+    height: 50vh;
+  }
+  .intro-logo{
+    overflow: hidden;
+  }
+  #intro-page{
+    overflow: hidden;
+    width: 100vw;
+  }
+  #page-wrap{
+    width: 100vw;
+    overflow: hidden;
   }
 }
 #social{
