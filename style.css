@@ -161,7 +161,6 @@ p{
   list-style: none;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 .three-by li{
   width: 200px;
@@ -284,10 +283,11 @@ p{
 }
 @media screen and (max-width: 600px){
   .icon-holder{
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
   }
   .icon-holder li h2, .icon-holder li p{
     text-align: center;
