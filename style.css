@@ -442,7 +442,7 @@ background-position: center;
   background-image: url("img/graphic-design/all-three-la-croix-cans.png");
 }
 #code{
-  background-image: url("img/dog.png");
+  background-image: url("img/21-yo-ww.png");
 }
 .hidden{
   visibility: hidden;
@@ -758,3 +758,33 @@ a{
   }
 }
 /*END ABOUT PAGE*/
+/*CODE PAGE*/
+#codeproject01{
+  background-image:url("img/moving-icon.png");
+  /*background-position: bottom;*/
+  width: 80vw;
+}
+#codeproject02{
+  background-image:url("img/solar-system.png");
+}
+#codeproject03{
+  background-image: url("img/retro-game.png");
+  background-size: 110%;
+  background-position: -30px;
+}
+#codeproject04{
+  background-image: url("img/generative-triangles.png");
+  background-position: center;
+  background-size: cover;
+}
+#codeproject05{
+  background-image: url("img/21-yo-ww.png");
+  background-size: 110%;
+  background-position: -30px;
+}
+#codeproject06{
+  background-image: url("img/fox-news.png");
+  /*background-size: 110%;*/
+  background-position: center;
+}
+/*END CODE PAGE*/
