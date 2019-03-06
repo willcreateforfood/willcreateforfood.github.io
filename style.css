@@ -748,6 +748,9 @@ a{
   .contain-face{
     height: 20vh;
   }
+  #taphIMG{
+    height: 20vh;
+  }
 }
 @media screen and (min-width: 1024px) {
   .main-content.worthwhile{
