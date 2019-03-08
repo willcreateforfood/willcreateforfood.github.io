@@ -439,7 +439,7 @@ background-position: center;
   background-image: url("img/dog.png");
 }
 #project09{
-  background-image: url("img/food-deserts.png");
+  background-image: url("img/food-deserts.PNG");
 }
 #graphics{
   background-image: url("img/graphic-design/all-three-la-croix-cans.png");
@@ -677,7 +677,7 @@ a{
 /*END WASTE LESS*/
 /*FOOD FINDER*/
 #foodfinderIMG{
-  background-image: url("img/food-deserts.png");
+  background-image: url("img/food-deserts.PNG");
   background-size: contain;
 }
 /*END FOOD FINDER*/
