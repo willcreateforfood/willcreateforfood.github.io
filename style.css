@@ -24,6 +24,9 @@ p{
   line-height: 28px;
   color: #231f20;
 }
+#contact p, #me p, .body-text p{
+  text-align: justify;
+}
 
 /*START NAVIGATION*/
 .magic-menu{
@@ -292,6 +295,15 @@ p{
   .icon-holder li h2, .icon-holder li p{
     text-align: center;
   }
+  #services .two-by{
+    padding: 0;
+  }
+  #services .two-by li ul{
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+  }
 }
 /*MAIN MOBILE*/
 @media screen and (max-width: 1024px) {
@@ -327,6 +339,21 @@ p{
     width: 100vw;
     overflow: hidden;
   }
+  .icon-holder{
+    flex-wrap: nowrap;
+  }
+  .icon-holder li h2{
+    visibility: hidden;
+    position: absolute;
+  }
+  .icon-holder li p{
+    visibility: hidden;
+    position: absolute;
+  }
+  .icon-trio div img{
+    height: 110px;
+  }
+
 }
 #social{
   display: flex;
@@ -760,10 +787,34 @@ a{
   #taphIMG{
     height: 20vh;
   }
+  .worthwhile .three-by{
+    /*justify-content: flex-start;*/
+    text-align: center;
+    list-style: none;
+  }
+  .worthwhile .three-by li{
+    margin-left: -6px;
+    padding-left: 0;
+  }
+  .worthwhile .three-by li ul{
+    list-style: none;
+    justify-content: center;
+  }
+  .main-content.worthwhile{
+    margin: auto;
+    padding: auto;
+  }
 }
 @media screen and (min-width: 1024px) {
   .main-content.worthwhile{
-    padding-right: 7vw;
+    /*padding-right: 7vw;*/
+    margin: auto;
+    padding: auto;
+  }
+  .worthwhile .three-by{
+    justify-content: space-between;
+    padding-left: 0;
+    list-style: none;
   }
   #description .three-by{
     padding-right: 5vw;
