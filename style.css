@@ -191,7 +191,6 @@ p{
 .work-grid li{
   width: 26vw;
   height: 26vw;
-  /*background-color:#6ac9ca;*/
 }
 #featured-proj01{
   background-image: url("img/TAPH-livingRoom-cropped.jpeg");
@@ -235,7 +234,6 @@ p{
 }
 .project-main:hover div h2, .project-main:hover div p{
   text-align: center;
-  /*padding: 20px;*/
   color: #231f20;
 }
 .project-main:hover div h2{
@@ -257,8 +255,14 @@ p{
 .icon-trio img{
   height:200px;
 }
+.intro-content.main-content{
+  padding: auto;
+}
 .intro-content{
   padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .intro-logo{
   display: flex;
@@ -275,7 +279,7 @@ p{
   color: #6ac9ca;
 }
 .intro-text{
-  /*padding-top: 5vh;*/
+  padding-top: 5vh;
   text-align: center;
   overflow-wrap: break-word;
 }
@@ -285,6 +289,31 @@ p{
   overflow-wrap: break-word;
 }
 @media screen and (max-width: 600px){
+  #intro-page{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+  }
+  .intro-content.main-content{
+    height: 100vh;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 5vw;
+  }
+  .intro-text{
+    top: 3vh;
+  }
+  .intro-logo{
+    position:relative;
+    margin-top: -30vh;
+    width: 100vw;
+  }
+  .intro-logo div{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
   .icon-holder{
     display: flex;
     list-style: none;
@@ -432,16 +461,15 @@ p{
 }
 #project01{
   background-image:url("img/TAPH-livingRoom-cropped.jpeg");
-  /*background-position: bottom;*/
   width: 80vw;
 }
 #project02{
   background-image:url("img/future.PNG");
 }
 #project03{
-  background-image: url("img/benign-front-page.PNG");
-  background-size: 110%;
-  background-position: -30px;
+  background-image: url("img/benign-front-page-cropped.PNG");
+  background-position: center;
+  background-size: contain;
 }
 #project04{
   background-image: url("img/BizQuizLogo-02.png");
@@ -451,11 +479,10 @@ p{
 #project05{
   background-image: url("img/pepsi-app-cropped.png");
   background-size: 110%;
-  background-position: -30px;
+  background-position: center;
 }
 #project06{
   background-image: url("img/MapBox-Map_Front-.png");
-  /*background-size: 110%;*/
   background-position: center;
 }
 #project07{
@@ -523,11 +550,8 @@ a{
 
 .project-details{
   background-color: white;
-  /*margin-top: 50vh;*/
   padding-top: 20px;
   z-index: 2;
-  /*padding-bottom: 100px;*/
-  /*height: 100vh;*/
 }
 .banner{
   height: 50vh;
@@ -536,7 +560,6 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  /*position: fixed;*/
   z-index: -1;
 }
 
@@ -726,7 +749,6 @@ a{
 }
 .lone-image{
   padding: 10px;
-  /*height: 70vh;*/
   width: 20vw;
 }
 @media screen and (max-width: 1024px) {
@@ -742,7 +764,6 @@ a{
 .main-content.worthwhile{
   padding-bottom: 0;
   padding-top: 0;
-  /*padding-right: 200px;*/
 
 }
 #instagram-accounts{
@@ -788,17 +809,20 @@ a{
     height: 20vh;
   }
   .worthwhile .three-by{
-    /*justify-content: flex-start;*/
     text-align: center;
     list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
   }
   .worthwhile .three-by li{
-    margin-left: -6px;
     padding-left: 0;
+    display: flex;
+    justify-content: center;
   }
   .worthwhile .three-by li ul{
     list-style: none;
-    justify-content: center;
+    padding: 0px;
   }
   .main-content.worthwhile{
     margin: auto;
@@ -807,7 +831,6 @@ a{
 }
 @media screen and (min-width: 1024px) {
   .main-content.worthwhile{
-    /*padding-right: 7vw;*/
     margin: auto;
     padding: auto;
   }
@@ -824,7 +847,6 @@ a{
 /*CODE PAGE*/
 #codeproject01{
   background-image:url("img/moving-icon.png");
-  /*background-position: bottom;*/
   width: 80vw;
 }
 #codeproject02{
@@ -847,7 +869,6 @@ a{
 }
 #codeproject06{
   background-image: url("img/fox-news.png");
-  /*background-size: 110%;*/
   background-position: center;
 }
 /*END CODE PAGE*/
