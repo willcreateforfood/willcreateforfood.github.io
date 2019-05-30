@@ -296,7 +296,6 @@ p{
   }
   .intro-content.main-content{
     height: 100vh;
-    padding: 0px;
     display: flex;
     justify-content: center;
     padding: 5vw;
@@ -467,7 +466,7 @@ p{
   background-image:url("img/future.PNG");
 }
 #project03{
-  background-image: url("img/benign-front-page-cropped.PNG");
+  background-image: url("img/benign-front-page-cropped.png");
   background-position: center;
   background-size: contain;
 }
@@ -530,7 +529,7 @@ a{
   text-decoration: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1160px) {
   .project{
     width: 80vw;
     height: 30vh;
@@ -616,7 +615,7 @@ a{
 /*END FOODMAP*/
 /*FUTURE*/
 #futureIMG01{
-  background-image: url("img/future.png");
+  background-image: url("img/future.PNG");
   background-size: contain;
   z-index: -2;
   opacity: 0;
